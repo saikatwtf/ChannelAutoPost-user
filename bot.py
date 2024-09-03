@@ -7,13 +7,13 @@ print("Starting...")
 uvloop.install()
 
 # Necessary credentials, fill before running the bot
-APP_ID =  # int add like 123345678
-API_HASH = ""
-SESSION = ""
+APP_ID = "API_ID" # int add like 123345678
+API_HASH = "API_HASH"
+SESSION = "SESSION"
 
 # Add multiple channels by spacing. Example: FROM = "-10012345678 -10023456789 -10034567890"
-FROM = ""  # channel ids from bot will forward messages
-TO = ""  # The channel ids im wich which userbot will forward messages
+FROM = "FROM"  # channel ids from bot will forward messages
+TO = "TO"  # The channel ids im wich which userbot will forward messages
 
 FROM = [int(i) for i in FROM.split()]
 TO = [int(i) for i in TO.split()]
