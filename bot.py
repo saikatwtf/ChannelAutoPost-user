@@ -7,8 +7,8 @@ print("Starting...")
 uvloop.install()
 
 # Necessary credentials, fill before running the bot
-APP_ID = "API_ID" # int add like 123345678
-API_HASH = "API_HASH"
+APP_ID = "5657300" # int add like 123345678
+API_HASH = "968c2ebb9a66063b831354a24ac52835"
 SESSION = "SESSION"
 
 # Add multiple channels by spacing. Example: FROM = "-10012345678 -10023456789 -10034567890"
