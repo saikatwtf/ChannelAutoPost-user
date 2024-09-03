@@ -12,8 +12,8 @@ API_HASH = "API_HASH"
 SESSION = "SESSION"
 
 # Add multiple channels by spacing. Example: FROM = "-10012345678 -10023456789 -10034567890"
-FROM = "FROM"  # channel ids from bot will forward messages
-TO = "TO"  # The channel ids im wich which userbot will forward messages
+FROM = ""  # channel ids from bot will forward messages
+TO = ""  # The channel ids im wich which userbot will forward messages
 
 FROM = [int(i) for i in FROM.split()]
 TO = [int(i) for i in TO.split()]
